@@ -1,8 +1,6 @@
 # Idades
 
-## Tarefa
-
-### Desenvolvimento de sistema cliente-servidor (para 25/3, às 10h)
+### Tarefa: Desenvolvimento de sistema cliente-servidor (para 25/3, às 10h)
 
 Desenvolva um sistema cliente-servidor que forneça a idade de pessoas cujos nomes são entrados dentro do cliente.
 
