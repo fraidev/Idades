@@ -40,9 +40,9 @@ felipe = 21, carol = 20, maria = 32, clara = 13, miguel = 17, joao = 15, carlos 
 
 ### Sucesso
 
-![alt text](https://raw.githubusercontent.com/fraifelipe/Idades/master/fail.jpg)
+![alt text](https://raw.githubusercontent.com/fraifelipe/Idades/master/success.jpg)
 
 
 ### Falha
 
-![alt text](https://raw.githubusercontent.com/fraifelipe/Idades/master/success.jpg)
+![alt text](https://raw.githubusercontent.com/fraifelipe/Idades/master/fail.jpg)
