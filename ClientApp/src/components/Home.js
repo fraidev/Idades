@@ -5,7 +5,7 @@ export class Home extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { idade: -1,  valueInput: "" };
+    this.state = { idade: -1, result: "", valueInput: "" };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
@@ -15,13 +15,12 @@ export class Home extends Component {
   }
 
   handleSubmit(event) {
-    this.isRegistered(this.state.valueInput).then(x =>
-      console.log(this.state.idade));
+    this.isRegistered(this.state.valueInput).then(x => 
+      this.setState({result: this.state.idade != -1 ? "Sua idade é " + this.state.idade + "!" : "Não sei" }));
     event.preventDefault();
   }
 
   render() {
-    var result = this.state.idade != -1 ? "Sua idade é " + this.state.idade + "!" : "Não sei" 
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
@@ -31,7 +30,7 @@ export class Home extends Component {
           </label>
           <input type="submit" value="Submit" />
         </form>
-        <div> {result} </div>
+        <h1> {this.state.result} </h1>
       </div>
     );
   }
@@ -40,5 +39,6 @@ export class Home extends Component {
     const response = await fetch('api/Pessoa/IsRegistered/' + nome);
     const data = await response.json();
     this.setState({ idade: data });
+    this.state
   }
 }
