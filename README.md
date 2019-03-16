@@ -11,3 +11,18 @@ O servidor não precisa acessar um banco de dados. Vocês podem armazenar uns 20
 Vocês devem mandar os fontes e os executáveis tanto do cliente quanto do servidor, assim como um pequeno manual ou instruções claras o suficiente para que eu use os programas de vocês. Os programas devem ser claros e compreensíveis - comentem o que for necessário.
 
 Vocês podem usar fragmentos de código da Internet, mas se copiarem integralmente algum programa, vocês receberão nota zero pelo plágio.
+
+### Tecnologias
+
+AspNetCore 3.0 Preview
+React 16.0.0
+
+### Instruções
+
+É Nescessario:
+Runtime ou SDK do DotNet Core 3.0 Preview 3 https://dotnet.microsoft.com/download/dotnet-core/3.0 
+Nodejs LTS https://nodejs.org/en/
+
+Na pasta ClientApp execute no seu Terminal "npm i"
+Na pasta raiz execure "dotnet run"
+Navegue na url https://localhost:5001 ou http://localhost:5000 no seu navegador.
