@@ -15,6 +15,7 @@ Vocês podem usar fragmentos de código da Internet, mas se copiarem integralmen
 ### Tecnologias
 
 AspNetCore 3.0 Preview
+
 React 16.0.0
 
 ### Instruções
