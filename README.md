@@ -18,14 +18,14 @@ AspNetCore 3.0 Preview
 
 React 16.0.0
 
-### Instruções
-
-É Nescessario:
+### Nescessario
 
 Runtime ou SDK do DotNet Core 3.0 Preview 3 https://dotnet.microsoft.com/download/dotnet-core/3.0
 
 Nodejs LTS https://nodejs.org/en/
 
+
+### Instruções
 
 Na pasta ClientApp execute no seu Terminal o comando "npm i".
 
